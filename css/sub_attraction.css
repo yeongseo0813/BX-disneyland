@@ -1,0 +1,751 @@
+
+
+#header{}
+
+#header > h1{
+    position: fixed;
+    left: 57px;
+    top: 33px;
+    z-index: 9999;
+}
+
+#navi{
+    position: fixed;
+    left: 50%;
+    top: 57px;
+    margin-left: -137px;
+    z-index: 9996;
+}
+
+#menu_btn{
+    position: fixed;
+    right: 62px;
+    top: 50px;
+    z-index: 9996;
+    cursor: pointer;
+}
+
+#ticket{
+    position: fixed;
+    left: 46%;
+    bottom: 0;
+    transform: rotate(-16.5deg);
+    filter: drop-shadow(5px 5px 5px rgba(34, 23, 20, 0.4));
+    z-index: 8000;
+    cursor: pointer;
+}
+
+#ticket > img{
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+}
+
+#ticket .on{
+    display: none;
+}
+
+#pagination{
+    height: 20px;
+    position: fixed;
+    left: 60px;
+    bottom: 50px;
+    z-index: 8000;
+}
+
+#pagination .left_number{
+    float : left;
+    color: white;
+}
+
+#pagination .left_number > img {
+    position : absolute;
+}
+
+#pagination .left_number > img:nth-child(2){display: none;}
+#pagination .left_number > img:nth-child(3){display: none;}
+#pagination .left_number > img:nth-child(4){display: none;}
+#pagination .left_number > img:nth-child(5){display: none;}
+#pagination .left_number > img:nth-child(6){display: none;}
+#pagination .left_number > img:nth-child(7){display: none;}
+
+#pagination .right_number{
+    float : right;
+    margin: 0 0 0 10px;
+}
+
+#pagination .slide_bar{
+    width: 175px;
+    height: 1px;
+    background: white;
+    float : left;
+    margin: 7px 0 0 35px;
+}
+
+#pagination .slide_bar .line {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin-top: -1px;
+}
+
+#header > a .next{
+    width: 255px;
+    height: 15px;
+    position: fixed;
+    right: 63px;
+    bottom: 52px;
+    z-index: 8000;
+    color: white;
+    font-size: 20px;
+    font-family: "Cocogoose Regular", sans-serif;
+}
+
+#header >a .next > img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+#fullpage > section {
+    height: 980px;
+}
+
+/* header end */
+
+
+#menu{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: url("../image/menu/menu_bg.jpg");
+    z-index: 9997;
+    transform: translateY(-980px);
+    transition: all 0.7s;
+    /*display: none;*/
+}
+
+#menu.down{
+    transform: translateY(0);
+}
+
+#menu .logo{
+    position: absolute;
+    left: 57px;
+    top: 33px;
+}
+
+#menu .close{
+    position: absolute;
+    right: 60px;
+    top: 38px;
+    cursor: pointer;
+}
+
+#menu .menu_list{
+    position: absolute;
+    right: 183px;
+    top: 260px;
+}
+
+#menu .menu_list > li{
+    text-align: right;
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+
+#menu .menu_list > li > a{
+    color: white;
+    font-family: "Cocogoose Light", sans-serif;
+    font-size: 70px;
+}
+
+#menu .menu_list > li > a:hover{
+    color: #0072ff;
+}
+
+#menu .footer_left{
+    position: absolute;
+    left: 175px;
+    bottom: 48px;
+}
+
+#menu .footer_left > li{
+    float: left;
+    margin-right: 38px;
+    color: #6698d6;
+    font-family: "Cocogoose Light", sans-serif;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#menu .footer_left > li > div:first-child{
+    margin-bottom: 10px;
+}
+
+#menu .footer_left > li .line{
+    width: 0;
+    height: 5px;
+    background: #6698d6;
+    border-radius: 5px;
+    transition: width 0.7s ease;
+}
+
+
+#menu .footer_left .about:hover .line{
+    width: 104px;
+}
+
+#menu .footer_left .company:hover .line{
+    width: 170px;
+}
+
+#menu .footer_right{
+    position: absolute;
+    right: 183px;
+    bottom: 48px;
+}
+
+#menu .footer_right > li{
+    float: left;
+    margin-left: 33px;
+    cursor: pointer;
+}
+
+#menu .footer_right > li > img{
+    margin-bottom: 10px;
+}
+
+#menu .footer_right > li .line{
+    width: 0;
+    height: 5px;
+    background: #6698d6;
+    border-radius: 5px;
+    transition: width 0.7s ease;
+}
+
+#menu .footer_right .blog:hover .line{
+    width: 23px;
+}
+
+#menu .footer_right .youtube:hover .line{
+    width: 32px;
+}
+
+#menu .footer_right .facebook:hover .line{
+    width: 13px;
+}
+
+#menu .footer_right .twitter:hover .line{
+    width: 27px;
+}
+
+#menu .footer_right .earth:hover .line{
+    width: 25px;
+}
+/* menu end */
+
+
+
+
+section .back{
+    width: 135px;
+    height: 15px;
+    position: fixed;
+    left: 57px;
+    bottom: 52px;
+    z-index: 9999;
+    color: white;
+    font-size: 20px;
+    font-family: "Cocogoose Regular", sans-serif;
+    cursor: pointer;
+}
+
+section .back .text{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+section .ticket{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    transform: rotate(-16.5deg);
+    filter: drop-shadow(5px 5px 5px rgba(34, 23, 20, 0.4));
+    z-index: 9999;
+    cursor: pointer;
+}
+
+section .ticket > img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+section .ticket .on{
+    display: none;
+}
+
+
+#usa_detail{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: url("../image/attraction/detail_bg.jpg");
+    z-index: 9000;
+    display: none;
+}
+
+#usa{
+    display: none;
+}
+
+#usa .typo{
+    position: absolute;
+    left: 186px;
+    top: 376px;
+    color: white;
+}
+
+#usa .typo > h3{
+    font-family: "Cocogoose Light", sans-serif;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+#usa .typo > h2{
+    font-family: "Cocogoose DemiBold", sans-serif;
+    font-size: 115px;
+    letter-spacing: -2px;
+    margin-bottom: 54px;
+}
+#usa .typo > p{
+    font-family: "SCDream3", sans-serif;
+    font-size: 24px;
+    color: #9cbbe1;
+    line-height: 36px;
+}
+
+
+#usa_slide{
+    position: fixed;
+    left: 913px;
+    top: 180px;
+}
+
+#usa_slide > div{
+    height: 800px;
+}
+
+#usa_slide .slick-slide{
+    margin-right: 30px; !important;
+    opacity : 0.5;
+    transform: scale(0.9);
+    transition: all .7s;
+    outline: none;
+}
+
+#usa_slide .slick-slide > img{
+    box-shadow: 5px 5px 20px rgba(34,23,20,0.4);
+}
+
+#usa_slide .slick-current {
+    opacity : 1;
+    transform: scale(1);
+    outline: none;
+}
+
+
+#usa_slide > div .text{
+    font-family: "SCDream6", sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#usa_slide > div .stars > li{
+    float: left;
+    margin: 0 10px 15px 0;
+}
+/*slide end*/
+
+#usa_slide .slick-dots {
+    width: 223px;
+    height: 14px;
+    position : absolute;
+    left: 96px;
+    bottom: 11.8%;
+    background: url("../image/attraction/usa_pagination_bg.png");
+}
+
+#usa_slide .slick-dots li{
+    width: 28px;
+    height: 14px;
+    transition:all 1s;
+    position : absolute;
+    left: 0;
+    top: 0;
+}
+
+#usa_slide .bar{
+    width: 30px;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 131px;
+    bottom: 12.4%;
+    margin-left: 0;
+    z-index: 10;
+}
+
+#usa_slide .slick-dots li:nth-child(1).slick-active{background: url("../image/attraction/slide_01.png")}
+#usa_slide .slick-dots li:nth-child(2).slick-active{background: url("../image/attraction/slide_02.png")}
+#usa_slide .slick-dots li:nth-child(3).slick-active{background: url("../image/attraction/slide_03.png")}
+#usa_slide .slick-dots li:nth-child(4).slick-active{background: url("../image/attraction/slide_04.png")}
+#usa_slide .slick-dots li:nth-child(5).slick-active{background: url("../image/attraction/slide_05.png")}
+#usa_slide .slick-dots li .slick-active{}
+
+#usa_slide .slick-dots li button{
+    display: none;
+}
+/*slide pagination end*/
+
+/* see detail_usa end */
+
+#toystory_detail{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: url("../image/attraction/detail_bg.jpg");
+    z-index: 9000;
+    display: none;
+}
+
+#toystory{
+    display: none;
+}
+
+#toystory .typo{
+    position: absolute;
+    left: 186px;
+    top: 376px;
+    color: white;
+}
+
+#toystory .typo > h3{
+    font-family: "Cocogoose Light", sans-serif;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+#toystory .typo > h2{
+    font-family: "Cocogoose DemiBold", sans-serif;
+    font-size: 115px;
+    letter-spacing: -2px;
+    margin-bottom: 54px;
+}
+#toystory .typo > p{
+    font-family: "SCDream3", sans-serif;
+    font-size: 24px;
+    color: #9cbbe1;
+    line-height: 36px;
+}
+
+#toystory_slide{
+    position: absolute;
+    left: 913px;
+    top: 180px;
+}
+
+#toystory_slide > div{
+    height: 800px;
+}
+
+#toystory_slide .slick-slide{
+    margin-right: 30px; !important;
+    opacity : 0.5;
+    transform: scale(0.9);
+    transition: all .7s;
+    outline: none;
+}
+
+#toystory_slide .slick-slide > img{
+    box-shadow: 5px 5px 20px rgba(34,23,20,0.4);
+}
+
+#toystory_slide .slick-current {
+    opacity : 1;
+    transform: scale(1);
+    outline: none;
+}
+
+#toystory_slide > div .text{
+    font-family: "SCDream6", sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#toystory_slide > div .stars > li{
+    float: left;
+    margin: 0 10px 15px 0;
+}
+/*slide end*/
+
+
+#toystory_slide .slick-dots {
+    width: 224px;
+    height: 14px;
+    position : absolute;
+    left: 96px;
+    bottom: 11.8%;
+    background: url("../image/attraction/toystory_pagination_bg.png");
+}
+
+#toystory_slide .slick-dots li{
+    width: 28px;
+    height: 14px;
+    transition:all 1s;
+    position : absolute;
+    left: 0;
+    top: 0;
+}
+
+#toystory_slide .bar{
+    width: 37.5px;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 131px;
+    bottom: 12.4%;
+    margin-left: 0;
+    z-index: 10;
+}
+
+#toystory_slide .slick-dots li:nth-child(1).slick-active{background: url("../image/attraction/slide_01.png")}
+#toystory_slide .slick-dots li:nth-child(2).slick-active{background: url("../image/attraction/slide_02.png")}
+#toystory_slide .slick-dots li:nth-child(3).slick-active{background: url("../image/attraction/slide_03.png")}
+#toystory_slide .slick-dots li:nth-child(4).slick-active{background: url("../image/attraction/slide_04.png")}
+#toystory_slide .slick-dots li:nth-child(5).slick-active{background: url("../image/attraction/slide_05.png")}
+#toystory_slide .slick-dots li .slick-active{}
+
+
+#toystory_slide .slick-dots li button{
+    display: none;
+}
+/*slide pagination end*/
+
+
+
+/* see detail_toystory end */
+
+
+#fantasy_detail{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: url("../image/attraction/detail_bg.jpg");
+    z-index: 9000;
+    display: none;
+}
+
+
+#fantasy{
+    display: none;
+}
+
+#fantasy .typo{
+    position: absolute;
+    left: 186px;
+    top: 376px;
+    color: white;
+}
+
+#fantasy .typo > h3{
+    font-family: "Cocogoose Light", sans-serif;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+#fantasy .typo > h2{
+    font-family: "Cocogoose DemiBold", sans-serif;
+    font-size: 115px;
+    letter-spacing: -2px;
+    margin-bottom: 54px;
+}
+#fantasy .typo > p{
+    font-family: "SCDream3", sans-serif;
+    font-size: 24px;
+    color: #9cbbe1;
+    line-height: 36px;
+}
+
+
+#fantasy_slide{
+    position: absolute;
+    left: 913px;
+    top: 180px;
+}
+
+#fantasy_slide > div{
+    height: 800px;
+}
+
+#fantasy_slide .slick-slide{
+    margin-right: 30px; !important;
+    opacity : 0.5;
+    transform: scale(0.9);
+    transition: all .7s;
+    outline: none;
+}
+
+#fantasy_slide .slick-slide > img{
+    box-shadow: 5px 5px 20px rgba(34,23,20,0.4);
+}
+
+#fantasy_slide .slick-current {
+    opacity : 1;
+    transform: scale(1);
+    outline: none;
+}
+
+#fantasy_slide > div .text{
+    font-family: "SCDream6", sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#fantasy_slide > div .stars > li{
+    float: left;
+    margin: 0 10px 15px 0;
+}
+/*slide end*/
+
+
+#fantasy_slide .slick-dots {
+    width: 223px;
+    height: 14px;
+    position : absolute;
+    left: 96px;
+    bottom: 95px;
+    background: url("../image/attraction/usa_pagination_bg.png");
+}
+
+#fantasy_slide .slick-dots li{
+    width: 28px;
+    height: 14px;
+    transition:all 1s;
+    position : absolute;
+    left: 0;
+    top: 0;
+}
+
+#fantasy_slide .bar{
+    width: 30px;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 131px;
+    bottom: 12.4%;
+    margin-left: 0;
+    z-index: 10;
+}
+
+#fantasy_slide .slick-dots li:nth-child(1).slick-active{background: url("../image/attraction/slide_01.png")}
+#fantasy_slide .slick-dots li:nth-child(2).slick-active{background: url("../image/attraction/slide_02.png")}
+#fantasy_slide .slick-dots li:nth-child(3).slick-active{background: url("../image/attraction/slide_03.png")}
+#fantasy_slide .slick-dots li:nth-child(4).slick-active{background: url("../image/attraction/slide_04.png")}
+#fantasy_slide .slick-dots li:nth-child(5).slick-active{background: url("../image/attraction/slide_05.png")}
+#fantasy_slide .slick-dots li .slick-active{}
+
+
+#fantasy_slide .slick-dots li button{
+    display: none;
+}
+/*slide pagination end*/
+
+/* see detail_fantasyland end */
+
+
+
+
+#fullpage > section .fp-tableCell .sd_btn{
+    width: 204px;
+    height: 63px;
+    position: absolute;
+    left: 50%;
+    bottom: 180px;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#fullpage > section .fp-tableCell .sd_btn .btn{
+    width: 204px;
+    height: 63px;
+    background: #0a3365;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    line-height: 63px;
+    font-family: "Cocogoose Light", sans-serif;
+    transform: scale(1);
+}
+
+#section01 {
+    background: url("../image/attraction/attraction01.jpg");
+}
+
+#fullpage > section .fp-tableCell .sd_btn .usa:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+#section02 {
+    background: url("../image/attraction/attraction02.jpg");
+
+}
+#section03 {
+    background: url("../image/attraction/attraction03.jpg");
+}
+
+#section04 {
+    background: url("../image/attraction/attraction04.jpg");
+}
+
+#section05 {
+    background: url("../image/attraction/attraction05.jpg");
+}
+
+#fullpage > section .fp-tableCell .sd_btn .toystory:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+#section06 {
+    background: url("../image/attraction/attraction06.jpg");
+}
+
+#fullpage > section .fp-tableCell .sd_btn .fantasy:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+#section07 {
+    background: url("../image/attraction/attraction07.jpg");
+}
+
+/*#footer,*/
+/*#footer .fp-tableCell {*/
+/*    height: 160px !important;*/
+/*    background: gray;*/
+/*}*/

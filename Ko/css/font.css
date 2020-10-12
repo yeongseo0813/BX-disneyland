@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Cocogoose Light';
+    src: local(※), url("../../font/Cocogoose/Cocogoose Pro Light-trial.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Cocogoose DemiBold';
+    src: local(※), url("../../font/Cocogoose/Cocogoose Pro Semilight-trial.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Cocogoose Regular';
+    src: local(※), url("../../font/Cocogoose/Cocogoose Pro-trial.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Gotham Light';
+    src: local(※), url("../../font/Gotham/Gotham-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: local(※), url("../../font/Gotham/Gotham-Book.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: local(※), url("../../font/Gotham/Gotham-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: local(※), url("../../font/Gotham/Gotham-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'SCDream3';
+    src: local(※), url("../../font/S-Core_Dream/SCDream3.otf") format("opentype")
+}
+
+@font-face {
+    font-family: 'SCDream4';
+    src: local(※), url("../../font/S-Core_Dream/SCDream4.otf") format("opentype")
+}
+
+@font-face {
+    font-family: 'SCDream6';
+    src: local(※), url("../../font/S-Core_Dream/SCDream6.otf") format("opentype")
+}
+
+@font-face {
+    font-family: 'a드림고딕1';
+    src: local(※), url("../../font/a드림고딕/a드림고딕1.otf") format("opentype")
+}
+
+@font-face {
+    font-family: 'a드림고딕2';
+    src: local(※), url("../../font/a드림고딕/a드림고딕2.otf") format("opentype")
+}
+
+@font-face {
+    font-family: 'a드림고딕3';
+    src: local(※), url("../../font/a드림고딕/a드림고딕3.otf") format("opentype")
+}
+
+@font-face {
+    font-family: 'a드림고딕4';
+    src: local(※), url("../../font/a드림고딕/a드림고딕4.otf") format("opentype")
+}
+
+@font-face {
+    font-family: 'a드림고딕5';
+    src: local(※), url("../../font/a드림고딕/a드림고딕5.otf") format("opentype")
+}
+
+@font-face {
+    font-family: 'a드림고딕6';
+    src: local(※), url("../../font/a드림고딕/a드림고딕6.otf") format("opentype")
+}
+
+@font-face {
+    font-family: 'a드림고딕7';
+    src: local(※), url("../../font/a드림고딕/a드림고딕7.otf") format("opentype")
+}
+

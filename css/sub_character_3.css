@@ -1,0 +1,414 @@
+
+#header > h1{
+    position: fixed;
+    left: 57px;
+    top: 33px;
+    z-index: 1000;
+}
+
+#navi{
+    position: fixed;
+    left: 50%;
+    top: 57px;
+    margin-left: -137px;
+    z-index: 1000;
+}
+
+#menu_btn{
+    position: fixed;
+    right: 62px;
+    top: 50px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#back{
+    width: 135px;
+    height: 15px;
+    position: fixed;
+    left: 57px;
+    bottom: 52px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#back .text{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Cocogoose Regular", sans-serif;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#ticket{
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    transform: rotate(-16.5deg);
+    filter: drop-shadow(5px 5px 5px rgba(34, 23, 20, 0.4));
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#ticket > img{
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+#ticket .on{
+    display: none;
+}
+
+/* header end */
+
+
+#menu{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: url("../image/menu/menu_bg.jpg");
+    z-index: 9999;
+    transform: translateY(-980px);
+    transition: all 0.7s;
+    /*display: none;*/
+}
+
+#menu.down{
+    transform: translateY(0);
+}
+
+#menu .logo{
+    position: absolute;
+    left: 57px;
+    top: 33px;
+}
+
+#menu .close{
+    position: absolute;
+    right: 60px;
+    top: 38px;
+    cursor: pointer;
+}
+
+#menu .menu_list{
+    position: absolute;
+    right: 183px;
+    top: 260px;
+}
+
+#menu .menu_list > li{
+    text-align: right;
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+
+#menu .menu_list > li > a{
+    color: white;
+    font-family: "Cocogoose Light", sans-serif;
+    font-size: 70px;
+}
+
+#menu .menu_list > li > a:hover{
+    color: #0072ff;
+}
+
+#menu .footer_left{
+    position: absolute;
+    left: 175px;
+    bottom: 48px;
+}
+
+#menu .footer_left > li{
+    float: left;
+    margin-right: 38px;
+    color: #6698d6;
+    font-family: "Cocogoose Light", sans-serif;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#menu .footer_left > li > div:first-child{
+    margin-bottom: 10px;
+}
+
+#menu .footer_left > li .line{
+    width: 0;
+    height: 5px;
+    background: #6698d6;
+    border-radius: 5px;
+    transition: width 0.7s ease;
+}
+
+
+#menu .footer_left .about:hover .line{
+    width: 104px;
+}
+
+#menu .footer_left .company:hover .line{
+    width: 170px;
+}
+
+#menu .footer_right{
+    position: absolute;
+    right: 183px;
+    bottom: 48px;
+}
+
+#menu .footer_right > li{
+    float: left;
+    margin-left: 33px;
+    cursor: pointer;
+}
+
+#menu .footer_right > li > img{
+    margin-bottom: 10px;
+}
+
+#menu .footer_right > li .line{
+    width: 0;
+    height: 5px;
+    background: #6698d6;
+    border-radius: 5px;
+    transition: width 0.7s ease;
+}
+
+#menu .footer_right .blog:hover .line{
+    width: 23px;
+}
+
+#menu .footer_right .youtube:hover .line{
+    width: 32px;
+}
+
+#menu .footer_right .facebook:hover .line{
+    width: 13px;
+}
+
+#menu .footer_right .twitter:hover .line{
+    width: 27px;
+}
+
+#menu .footer_right .earth:hover .line{
+    width: 25px;
+}
+/* menu end */
+
+
+
+#toystory_box{
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 8000;
+    /*display: none;*/
+}
+
+#wt_header > h1{
+    position: fixed;
+    left: 57px;
+    top: 33px;
+    z-index: 9999;
+}
+
+#wt_navi{
+    position: fixed;
+    left: 50%;
+    top: 57px;
+    margin-left: -137px;
+    z-index: 9999;
+}
+
+#wt_menu_btn{
+    position: fixed;
+    right: 62px;
+    top: 50px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+#wt_back{
+    width: 135px;
+    height: 15px;
+    position: fixed;
+    left: 57px;
+    bottom: 52px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+#wt_back .text{
+    color: #909090;
+    font-size: 20px;
+    font-family: "Cocogoose Regular", sans-serif;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#wt_ticket{
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    transform: rotate(-16.5deg);
+    filter: drop-shadow(5px 5px 5px rgba(34, 23, 20, 0.4));
+    z-index: 9999;
+    cursor: pointer;
+}
+
+#wt_ticket > img{
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+#wt_ticket .on{
+    display: none;
+}
+/*wt_header*/
+
+
+#box_page .toystory_logo{
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translateX(-50%);
+}
+
+#box_page .box{
+    width: 1500px;
+    height: 980px;
+    position: absolute;
+    left: 12.5%;
+    top: 205px;
+}
+
+#box_page .box > div{
+    width: 356px;
+    height: 355px;
+    border: 1px solid #f5f5f5;
+    float: left;
+    position: relative;
+}
+
+#box_page .none{
+    opacity: 0;
+}
+
+#box_page .box > div > a .full{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+#box_page .box > div > a .full:hover{
+    opacity: 1;
+}
+/*box_page end*/
+
+
+#fullpage > section {
+    height: 980px;
+}
+
+#pagination{
+    position: fixed;
+    right: 62px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+#pagination > li{
+    width: 8px;
+    height: 8px;
+    background: #d2d2d2;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    transition: all .5s;
+}
+
+#pagination > li.on{
+    transform: scale(1.5);
+    background: #7b7b7b;
+}
+
+
+.section .img_box{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.section .typo{
+    position: absolute;
+    left: 54%;
+    top: 304px;
+}
+
+.section .typo .subtit{
+    margin-bottom: 47px;
+}
+
+.section .typo .tit{
+    margin-bottom: 53px;
+}
+
+.section .typo > p{
+    font-family: "SCDream3", sans-serif;
+    font-size: 22px;
+    color: #7b7b7b;
+    line-height: 38px;
+}
+
+#section01 .img_box, #section02 .img_box, #section03 .img_box{
+    transform: translateX(-860px);
+    transition: all 1s;
+}
+
+#section01 .img_box.on, #section02 .img_box.on, #section03 .img_box.on{
+    transform: translateX(0);
+}
+
+
+#section01 .typo .subtit, #section02 .typo .subtit, #section03 .typo .subtit{
+    transform: translateX(670px);
+    transition: all 1s;
+    opacity: 0;
+}
+
+#section01 .typo .subtit.on, #section02 .typo .subtit.on, #section03 .typo .subtit.on{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+#section01 .typo .tit, #section02 .typo .tit, #section03 .typo .tit{
+    transform: translateX(670px);
+    transition: all 1s;
+    opacity: 0;
+    transition-delay: .5s;
+}
+
+#section01 .typo .tit.on, #section02 .typo .tit.on, #section03 .typo .tit.on{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+#section01 .typo > p, #section02 .typo > p, #section03 .typo > p{
+    transform: translateX(670px);
+    transition: all 1s;
+    opacity: 0;
+    transition-delay: .8s;
+}
+
+#section01 .typo > p.on, #section02 .typo > p.on, #section03 .typo > p.on{
+    transform: translateX(0);
+    opacity: 1;
+}
