@@ -10,7 +10,12 @@ $(document).ready(function() {
     $('#intro .video_bar .play_bar').addClass('on');
 
     setTimeout(function () {
-        $('#intro').fadeOut();
+        $('#intro').fadeOut(function (){
+            $('#section01 .fp-tableCell .title > h3').addClass('on');
+            $('#section01 .fp-tableCell .title > h2').addClass('on');
+            $('#section01 .fp-tableCell .title > p').addClass('on');
+            $('#section01 .fp-tableCell .sc01').addClass('on');
+        });
     },31000)
 
     $('#intro .video_bar .skip').click(function () {
